@@ -11,7 +11,7 @@ export default function SwitchButton({ isDark, onToggle }) {
       <Form.Check
         type="switch"
         id="dark-mode-switch"
-        checked={theme === "light"}
+        checked={theme === "dark"}
         onChange={toggleTheme}
       />
     </Form>

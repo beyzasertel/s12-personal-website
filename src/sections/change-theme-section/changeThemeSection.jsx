@@ -6,7 +6,16 @@ export default function ChangeThemeSection() {
   const [theme, toggleTheme] = useContext(ThemeContext);
 
   useEffect(() => {
-    document.body.classList.toggle("dark", theme === "light");
+    const body = document.body;
+    if (theme === "dark") {
+      body.classList.add("dark", "bg-gray-800");
+      body.classList.remove("bg-white");
+      body.setAttribute("data-theme", "dark");
+    } else {
+      body.classList.remove("dark", "bg-gray-800");
+      body.classList.add("bg-white");
+      body.setAttribute("data-theme", "light");
+    }
   }, [theme]);
 
   return (
