@@ -1,0 +1,23 @@
+.form-switch .form-check-input {
+  background-color: #000000;
+  border-color: none !important;
+  --bs-form-switch-bg: url("../../assets/images/elements/yellow-circle.svg") !important;
+  background-repeat: no-repeat;
+  background-position: 3px center !important; /* yatay 3px, dikey ortala */
+  background-size: 12px 12px;
+}
+
+.form-check-input:checked {
+  background-color: #e92577 !important;
+  --bs-form-switch-bg: url("../../assets/images/elements/yellow-circle.svg") !important;
+  background-size: auto;
+  border: none;
+  border-color: transparent !important;
+  background-position: 17px center !important; /* yatay 3px, dikey ortala */
+  background-size: 12px 12px;
+}
+
+.form-switch .form-check-input:focus {
+  border: none;
+  box-shadow: none;
+}

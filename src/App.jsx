@@ -1,9 +1,12 @@
-import { useState } from "react";
-import viteLogo from "/vite.svg";
 import "./App.css";
+import ChangeThemeSection from "./sections/change-theme-section/changeThemeSection";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <ChangeThemeSection></ChangeThemeSection>
+    </>
+  );
 }
 
 export default App;

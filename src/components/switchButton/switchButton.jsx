@@ -1,6 +1,7 @@
 import Form from "react-bootstrap/Form";
 import { ThemeContext } from "../../contexts/themeContext";
 import { useContext } from "react";
+import "./switchButton.css";
 
 export default function SwitchButton({ isDark, onToggle }) {
   const [theme, toggleTheme] = useContext(ThemeContext);
