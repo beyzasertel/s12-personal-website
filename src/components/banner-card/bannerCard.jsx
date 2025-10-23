@@ -1,6 +1,6 @@
 export default function BannerCard({}) {
   return (
-    <div className="bg-pink relative h-22 w-22 md:h-64 md:w-64 rounded-sm md:rounded-xl">
+    <div className="bg-pink relative h-44 w-44 md:h-64 md:w-64 rounded-xl md:rounded-xl">
       <img
         src="src/assets/images/photos/profile-photo.svg"
         alt="profile-path"

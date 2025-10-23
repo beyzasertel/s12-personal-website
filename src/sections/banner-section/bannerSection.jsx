@@ -19,8 +19,8 @@ export default function BannerSection() {
 
   return (
     <div className=" bg-softGray dark:bg-darkGray relative pb-12">
-      <div className="container flex items-center justify-between gap-4 md:gap-3 pt-6 md:pt-12 pb-8">
-        <div className="text-mediumBlack dark:text-white w-[75%] md:w-[50%]">
+      <div className="container flex flex-col-reverse md:flex-row items-center justify-between gap-4 md:gap-3 pt-6 md:pt-12 pb-8">
+        <div className="text-mediumBlack dark:text-white  ">
           <div className="relative ">
             <img
               src="src/assets/images/elements/pink-rectangle.svg"
@@ -38,7 +38,7 @@ export default function BannerSection() {
           </div>
         </div>
 
-        <div className="w-[65%] md:w-[40%]">
+        <div className=" ">
           <BannerCard />
         </div>
       </div>
