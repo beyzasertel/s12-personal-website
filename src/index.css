@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
@@ -22,6 +23,7 @@
   --color-navyBlue: #0077b5;
   --color-burgundy: #af0c48;
   --color-yellow: #ffe86e;
+  --color-white: #ffffff;
 }
 
 body {
@@ -37,4 +39,9 @@ body,
   padding: 0;
   overflow-x: hidden; /* sadece yatay scroll'u engelle */
   background-color: #fefefe; /* Tailwind bg-softGray gibi */
+}
+@layer utilities {
+  .font-playfair {
+    font-family: "Playfair Display", serif;
+  }
 }
