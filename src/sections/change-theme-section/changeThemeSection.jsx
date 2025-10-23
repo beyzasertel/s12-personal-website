@@ -1,7 +1,7 @@
 import { useEffect, useContext } from "react";
 
 import { ThemeContext } from "../../contexts/themeContext";
-import SwitchButton from "../../components/switchButton/switchButton";
+import SwitchButton from "../../components/switch-button/switchButton";
 
 export default function ChangeThemeSection() {
   const [theme] = useContext(ThemeContext);
