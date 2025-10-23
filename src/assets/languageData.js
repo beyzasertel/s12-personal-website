@@ -1,13 +1,19 @@
 const translations = {
   en: {
-    darkMode: "Dark Mode",
-    lightMode: "Light Mode",
-    changeLanguage: "English",
+    mode: {
+      dark: "Dark Mode",
+      light: "Light Mode",
+    },
+    language: "English",
+    changeLanguage: "",
   },
   tr: {
-    darkMode: "Karanlık Mod",
-    lightMode: "Aydınlık Mod",
-    changeLanguage: "Türkçe'ye geç",
+    mode: {
+      dark: "Karanlık Mod",
+      light: "Aydınlık Mod",
+    },
+    language: "Türkçe",
+    changeLanguage: "'ye geç",
   },
 };
 

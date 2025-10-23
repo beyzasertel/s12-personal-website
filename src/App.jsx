@@ -1,11 +1,11 @@
-import { useEffect } from "react";
 import "./App.css";
-import ChangeThemeSection from "./sections/change-theme-section/changeThemeSection";
+import HeaderSection from "./sections/header-section/headerSection";
 
 function App() {
   return (
     <>
-      <ChangeThemeSection></ChangeThemeSection>
+      <HeaderSection />
+
       <p className="text-lg text-gray-200 dark:text-pink mb-6">
         Bu yazının rengi temaya göre değişiyor!
       </p>

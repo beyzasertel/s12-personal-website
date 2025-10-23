@@ -6,7 +6,24 @@
 @theme {
   --font-display: "Satoshi", "sans-serif";
   --breakpoint-3xl: 120rem;
+  --color-softGray: #f4f4f4;
+  --color-lightGray: #777777;
+  --color-mediumGray: #525252;
+  --color-darkGray: #2a262b;
+  --color-softBlack: #484148;
+  --color-lightBlack: #2d3235;
+  --color-mediumBlack: #0a0a14;
+  --color-black: #000000;
   --color-pink: #ea2678;
+  --color-lightBlue: #ddeefe;
+  --color-lightGreen: #d9f6f1;
+  --color-darkGreen: #495351;
+  --color-blue: #1769ff;
+  --color-navyBlue: #0077b5;
+  --color-burgundy: #af0c48;
+  --color-yellow: #ffe86e;
+}
 
-  /* ... */
+body {
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
 }

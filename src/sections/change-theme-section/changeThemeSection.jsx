@@ -1,9 +1,10 @@
 import { useEffect, useContext } from "react";
-import SwitchButton from "../../components/switchButton/switchButton";
+
 import { ThemeContext } from "../../contexts/themeContext";
+import SwitchButton from "../../components/switchButton/switchButton";
 
 export default function ChangeThemeSection() {
-  const [theme, toggleTheme] = useContext(ThemeContext);
+  const [theme] = useContext(ThemeContext);
 
   useEffect(() => {
     const body = document.body;
@@ -19,7 +20,7 @@ export default function ChangeThemeSection() {
   }, [theme]);
 
   return (
-    <div className="p-4">
+    <div className="flex items-center">
       <SwitchButton />
     </div>
   );
