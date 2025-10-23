@@ -69,10 +69,11 @@ export default function BannerSection() {
         </div>
       </div>
 
-      <div className="absolute right-0 bottom-[-10px] md:bottom-[-22px] w-12 md:w-22">
+      <div className="absolute right-0 bottom-[10px] md:bottom-[22px] w-12 md:w-22">
         <img
           src="src/assets/images/elements/rounded-pink-rectangle.svg"
           alt="pink-rounded-rectangle"
+          className="absolute z-10"
         />
       </div>
     </div>
