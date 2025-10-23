@@ -7,7 +7,7 @@ export default function ChangeLanguageSection() {
   const [theme] = useContext(ThemeContext);
 
   return (
-    <div className="flex text-lightGray text-xs">
+    <div className="flex text-lightGray text-[10px] md:text-xs">
       <p className="m-0">
         {theme === "dark" ? text.mode.dark : text.mode.light}
       </p>
