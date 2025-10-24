@@ -18,7 +18,7 @@ export default function SkillsSection() {
         className="absolute top-[-4%] md:top-[-10%] right-[30%] h-12 w-12 md:h-22 md:w-22"
       />
       <div className="container py-12 md:py-28">
-        <p className="text-center text-mediumBlack text-3xl md:text-5xl pb-2 md:pb-8">
+        <p className="text-center text-mediumBlack text-3xl md:text-5xl pb-2 md:pb-12!">
           Skills
         </p>
         <div className="grid grid-cols-2 md:grid-cols-5 ">

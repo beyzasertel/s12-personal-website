@@ -1,10 +1,16 @@
 export default function InformationCard() {
   return (
-    <div className="bg-mediumGray/50 rounded-4 relative h-[230px] md:h-[290px] w-[280px] md:w-[350px]">
-      <div className="bg-white dark:bg-mediumGray! rounded-4 absolute bottom-3 md:right-3 py-8 px-4">
-        <p className="font-playfair text-pink text-xl">Basic Information</p>
+    <div className="relative w-full">
+      {/* Gri arka plan */}
+      <div className="bg-mediumGray/50 rounded-4 absolute inset-0 translate-x-2 translate-y-2"></div>
 
-        <div className="grid grid-cols-2 gap-y-4 text-mediumBlack dark:text-white">
+      {/* Beyaz içerik */}
+      <div className="bg-white dark:bg-mediumGray! rounded-4 relative py-8 px-4 w-full h-auto">
+        <p className="font-playfair text-pink text-xl mb-4">
+          Basic Information
+        </p>
+
+        <div className="grid grid-cols-2 gap-y-3 text-mediumBlack dark:text-white">
           <span className="font-semibold">Doğum Tarihi</span>
           <span>24.03.1996</span>
 
