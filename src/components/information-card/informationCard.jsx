@@ -1,10 +1,8 @@
 export default function InformationCard() {
   return (
     <div className="relative w-full">
-      {/* Gri arka plan */}
       <div className="bg-mediumGray/50 rounded-4 absolute inset-0 translate-x-2 translate-y-2"></div>
 
-      {/* Beyaz içerik */}
       <div className="bg-white dark:bg-mediumGray! rounded-4 relative py-8 px-4 w-full h-auto">
         <p className="font-playfair text-pink text-xl mb-4">
           Basic Information

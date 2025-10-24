@@ -1,15 +1,15 @@
 .form-switch .form-check-input {
-  background-color: #000000;
+  background-color: #e92577 !important;
   border-color: none !important;
-  --bs-form-switch-bg: url("../../assets/images/elements/yellow-circle.svg") !important;
+  --bs-form-switch-bg: url("../../assets/images/elements/yellow-circle.png") !important;
   background-repeat: no-repeat;
   background-position: 3px center !important; /* yatay 3px, dikey ortala */
   background-size: 12px 12px;
 }
 
 .form-check-input:checked {
-  background-color: #e92577 !important;
-  --bs-form-switch-bg: url("../../assets/images/elements/yellow-circle.svg") !important;
+  background-color: #000000 !important;
+  --bs-form-switch-bg: url("../../assets/images/elements/night-mode-icon.png") !important;
   background-size: auto;
   border: none;
   border-color: transparent !important;

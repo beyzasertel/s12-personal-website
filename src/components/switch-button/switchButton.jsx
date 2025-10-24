@@ -3,7 +3,7 @@ import { ThemeContext } from "../../contexts/themeContext";
 import { useContext } from "react";
 import "./switchButton.css";
 
-export default function SwitchButton({ isDark, onToggle }) {
+export default function SwitchButton() {
   const [theme, toggleTheme] = useContext(ThemeContext);
 
   return (
