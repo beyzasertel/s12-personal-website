@@ -1,16 +1,54 @@
-# React + Vite
+# Personal Website – React & Vite 🌐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal website built with React and Vite — showcasing portfolio, projects, and contact information.  
+This site is designed to highlight my skills, projects & background in a clean, performant UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔍 About This Project
 
-## React Compiler
+This repository contains my personal website built using React + Vite.  
+The goal is to have a lightweight, fast and SEO-friendly website that serves as my online portfolio/resume, showcasing personal projects, skills, and contact details.  
+It’s a demonstration of modern frontend best practices: component-based architecture, minimal dependencies, responsive design, and performance optimizations.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✅ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Homepage with hero/intro section  
+- Portfolio / Projects section — lists of projects with links (e.g. GitHub repos, live demos)  
+- About / Bio section — short profile and background info  
+- Contact section / footer — links to GitHub, LinkedIn, email, etc.  
+- Responsive design — works well on desktop, tablet, and mobile  
+- Fast build & development workflow using Vite + React  
+- Minimal, clean styling (CSS / customized styles)  
+- Easy to extend / update as portfolio grows  
+
+---
+
+## 🛠️ Tech Stack
+
+- React (via Vite)  
+- JavaScript / HTML / CSS  
+- Vite (bundler / dev server)  
+- (Optional) Additional tools: ESLint, code formatting etc.  
+- Deployment: (for example) Vercel / Netlify / GitHub Pages — as configured  
+
+---
+
+## 📦 Getting Started (Development)
+
+To run the project locally:
+
+```bash
+git clone https://github.com/beyzasertel/Personal-Website-React-Vite.git  
+cd Personal-Website-React-Vite  
+npm install  
+npm run dev
+
+## 👩‍💻 Author
+
+Beyza Can Sertel
+Frontend Developer
+GitHub: @beyzasertel
+LinkedIn: (https://www.linkedin.com/in/beyza-can-sertel)
